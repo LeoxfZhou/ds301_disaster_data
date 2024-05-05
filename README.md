@@ -29,5 +29,9 @@ Link to dataset: https://xview2.org/
 ## Project Structure 
 
 This repository contains various google colab notebooks.
-Each notebook contains code for both datasets and transfer learning.
+- lstm_bilstm.ipynb : code for both the LSTM and BiLSTM models
+- use.ipynb : code for the USE model
+- gru.ipynb : code for the GRU model
+- bilstm_gru_sequential_model.ipynb : our custom architecture
 
+To execute the code, download the preprocessed data in the linked Google Drive folder under the "preprocessed" subfolder and run the code in the notebook. The order of the models does not matter as long as the data has already been preprocessed. The raw datasets can also be downloaded from the same folder, under their respective subfolders.
