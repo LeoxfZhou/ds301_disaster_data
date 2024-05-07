@@ -32,6 +32,6 @@ This repository contains various google colab notebooks.
 - building_after_disaster : code for our best model 
 - cnn_hyperparameters : code for hyperparameter optimization techniques (Random Search, Bayesian Optimization, Hyperband)
 - data_exploration_+_preprocessing : code for data exploration and preprocessing data  
--  :
+- cnn_transfer : code for baseline model 
 
 To execute the code, download the preprocessed data in the linked Google Drive folder under the "preprocessed" subfolder and run the code in the notebook. The order of the models does not matter as long as the data has already been preprocessed. The raw datasets can also be downloaded from the same folder, under their respective subfolders.
